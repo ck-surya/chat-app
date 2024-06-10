@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  margin: 1rem 0;
+  padding: 0;
+  /* max-width: 1024PX; */
+}
+
+.main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 0;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar{
+  border: 2px solid green;
+  margin: 20px;
+  height: 80%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  background: #f0f0f0;
+  align-items: center;
+}
+
+.welcomePage {
+  border: 2px solid red;
+  margin: 20px;
+  height: 80%;
+  width: 60%;
+  background: #f0f0f0;
+}
